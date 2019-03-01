@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>The Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="vertical-align-middle instructions">
+                <h1>Press the button to play. Type to guess the letters in the word. Also, the theme is spooky.</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row contentRow justify-content-center">
+            <div id="gameContent" class="justify-content-center">
+                <p id="wins-text"></p>
+                <p id="guessingArray-text"></p>
+                <p id="wrongGuesses-text"></p>
+                <p id="guessesRemaining-text"></p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <button type="button" id="playButton" class="btn btn-success justify-content-center">Play Game</button>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>

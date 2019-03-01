@@ -1,0 +1,28 @@
+body {
+    background-image: url("../images/5833.jpg") ; 
+    color: white;
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(255, 88, 88);
+}
+
+.container{
+    overflow: auto;
+}
+
+.contentRow{
+    margin-top: 20%;
+}
+
+.instructions {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.gameContent {
+    background: red;
+    opacity: 40%;
+    padding: 10px;
+}
